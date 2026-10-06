@@ -35,13 +35,21 @@ npx wrangler d1 execute DB --remote --file=./schema.sql
 3. Configure Secrets
 Bash
 npx wrangler secret put BOT_TOKEN
+
 npx wrangler secret put ADMIN_ID
+
 npx wrangler secret put WEBHOOK_SECRET
+
 npx wrangler secret put BACKUP_KEY
+
 npx wrangler secret put GOOGLE_CLIENT_ID
+
 npx wrangler secret put GOOGLE_CLIENT_SECRET
+
 npx wrangler secret put GOOGLE_REFRESH_TOKEN
+
 npx wrangler secret put DRIVE_FOLDER_ID
+
 4. Build & Deploy
 Bash
 npm run build
