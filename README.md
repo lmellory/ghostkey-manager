@@ -25,9 +25,12 @@ Backups: Google Drive API v3
 1. Clone & Install
 Bash
 git clone [https://github.com/](https://github.com/)<your-username>/aegis-vault.git
+
 cd aegis-vault
+
 npm install
-2. Cloudflare D1 Setup
+
+3. Cloudflare D1 Setup
 Bash
 npx wrangler d1 create vault
 # Paste the returned database_id into wrangler.toml
