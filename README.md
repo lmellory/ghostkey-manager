@@ -30,6 +30,7 @@ cd aegis-vault
 
 npm install
 
+
 3. Cloudflare D1 Setup
 Bash
 npx wrangler d1 create vault
