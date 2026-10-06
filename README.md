@@ -54,5 +54,7 @@ npx wrangler secret put DRIVE_FOLDER_ID
 Bash
 npm run build
 npx wrangler deploy
+
 📄 License
+
 Distributed under the MIT License.
