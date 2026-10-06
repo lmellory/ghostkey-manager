@@ -1,0 +1,4 @@
+CREATE TABLE rate_limits (
+  k TEXT NOT NULL, w INTEGER NOT NULL, c INTEGER NOT NULL,
+  PRIMARY KEY (k, w)
+);

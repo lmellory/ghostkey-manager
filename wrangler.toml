@@ -1,0 +1,21 @@
+name = "password-vault"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vault"
+database_id = "3ed2e9d0-ea4e-45ce-8712-86a05b17b610"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["0 3 * * *"]
+
+[vars]
+APP_URL = "https://password-vault.mellory.workers.dev"
+# Секреты (не здесь!): wrangler secret put BOT_TOKEN | ADMIN_ID | WEBHOOK_SECRET
+#   | BACKUP_KEY | GOOGLE_CLIENT_ID | GOOGLE_CLIENT_SECRET | GOOGLE_REFRESH_TOKEN | DRIVE_FOLDER_ID

@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS rate_limits;
+CREATE TABLE rate_limits (
+  k TEXT PRIMARY KEY,
+  count INTEGER NOT NULL,
+  reset_at INTEGER NOT NULL
+);

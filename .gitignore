@@ -1,0 +1,27 @@
+# Зависимости и сборка
+node_modules/
+dist/
+
+# Локальные секреты, токены и переменные окружения (КРИТИЧНО)
+.env
+.dev.vars
+*.sa.json
+*.pem
+*.key
+credentials.json
+
+# Локальные дампы базы данных и зашифрованные бэкапы
+*.bin
+backup-*.bin
+vault-backup-*.bin
+restore.sql
+
+# Служебные файлы Cloudflare / Wrangler
+.wrangler/
+*.log
+
+# Файлы операционных систем и редакторов
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
