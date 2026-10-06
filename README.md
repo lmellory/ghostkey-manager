@@ -1,4 +1,7 @@
 # ghostkey-manager
+
+# Original Telegram Mini App: @password_nastya_bot
+# To get access to the bot, reach out to @mellory_cvv for a free invite key.
 A secure, autonomous, serverless credentials manager built as a Telegram Mini App powered by Cloudflare Workers + D1 and client-side Zero-Knowledge Encryption.
 
 ✨ Features
