@@ -36,6 +36,7 @@ Bash
 npx wrangler d1 create vault
 # Paste the returned database_id into wrangler.toml
 npx wrangler d1 execute DB --remote --file=./schema.sql
+
 3. Configure Secrets
 Bash
 npx wrangler secret put BOT_TOKEN
